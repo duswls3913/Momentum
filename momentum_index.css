@@ -52,15 +52,20 @@ li{
 .greetings{
   display: none;
   font-size: 30px;
-  margin-block-start: 1em;
-  margin-block-end: 1em;
+  margin-block-start: 0.5em;
+  margin-block-end: 0.5em;
 
 }
 
 .showing{
   display : block;
 }
+.js-weather{
+  position: absolute;
+  top:20px;
 
+  right: 50px;
+}
 @keyframes fadeIn {
   from {
     opacity: 0;
