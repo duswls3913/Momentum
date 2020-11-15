@@ -13,7 +13,15 @@ li{
   font-family: Helvetica, Arial, sans-serif;
 }
 
+@font-face {
+  font-family: '국립박물관문화재단클래식B';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.0/국립박물관문화재단클래식B.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
 #clock{
+  font-family: '국립박물관문화재단클래식B';
   font-size : 6em;
   font-style :oblique;
   margin-block-start :1.5em;
@@ -51,7 +59,7 @@ li{
 .form,
 .greetings{
   display: none;
-  font-size: 30px;
+  font-size: 40px;
   margin-block-start: 0.5em;
   margin-block-end: 0.5em;
 
@@ -59,6 +67,7 @@ li{
 
 .showing{
   display : block;
+  font-family: '국립박물관문화재단클래식B';
 }
 .js-weather{
   position: absolute;
